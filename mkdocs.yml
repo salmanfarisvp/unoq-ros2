@@ -1,0 +1,84 @@
+site_name: ROS 2 on Arduino UNO Q
+site_description: Set up ROS 2 Jazzy in Docker on the Arduino UNO Q, step by step or with one command.
+site_url: https://salmanfarisvp.github.io/unoq-ros2/
+repo_url: https://github.com/salmanfarisvp/unoq-ros2
+repo_name: salmanfarisvp/unoq-ros2
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    logo: material/robot-outline
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+
+nav:
+  - Introduction: index.md
+  - Quick setup: quick-setup.md
+  - Manual setup: manual-setup.md
+  - Pub/Sub Demo: pubsub.md
+  - Turtlesim modes: turtlesim.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/salmanfarisvp/unoq-ros2
+
+copyright: >
+  Based on the official
+  <a href="https://docs.arduino.cc/tutorials/uno-q/ros2-setup/">Arduino UNO Q ROS 2 guide</a>.
+  Not affiliated with Arduino or Open Source Robotics Foundation.
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
