@@ -2,7 +2,7 @@
 
 Run ROS 2 Jazzy in Docker on the Arduino UNO Q with one command. GUI apps work on a monitor or in your browser.
 
-📖 **Docs:** https://salmanfarisvp.github.io/unoq-ros2/
+📖 **Docs:** https://salmanfarisvp.com/unoq-ros2/
 
 ![Turtlesim in the browser](docs/assets/turtlesim/05-spawn.gif)
 

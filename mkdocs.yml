@@ -1,6 +1,6 @@
 site_name: ROS 2 on Arduino UNO Q
 site_description: Set up ROS 2 Jazzy in Docker on the Arduino UNO Q, step by step or with one command.
-site_url: https://salmanfarisvp.github.io/unoq-ros2/
+site_url: https://salmanfarisvp.com/unoq-ros2/
 repo_url: https://github.com/salmanfarisvp/unoq-ros2
 repo_name: salmanfarisvp/unoq-ros2
 edit_uri: edit/main/docs/
